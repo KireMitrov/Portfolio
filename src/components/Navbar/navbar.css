@@ -1,0 +1,14 @@
+.nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 32px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    max-height: 10vh;
+    z-index: 20;
+    background-color: blanchedalmond;
+}
+

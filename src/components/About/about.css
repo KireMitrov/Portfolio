@@ -1,0 +1,15 @@
+.main-container {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:red
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,20 @@
+.contact-container {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.contact-inputs {
+    background-color: rgb(16 13 37);
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 32px;
+}
