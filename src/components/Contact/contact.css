@@ -1,14 +1,13 @@
 .contact-container {
     height: 100vh;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: #112240;
 }
 
 .contact-inputs {
-    background-color: rgb(16 13 37);
+    background-color: #0a192f;
     height: 50%;
     width: 50%;
     border-radius: 10px;
@@ -16,5 +15,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 32px;
+    padding: 32px 64px;
+    max-width: 500px;
 }

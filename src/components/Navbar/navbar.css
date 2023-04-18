@@ -1,14 +1,25 @@
 .nav-bar-container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:flex-end;
+    gap:70px;
+    margin-right: 100px;
     flex-direction: row;
     padding: 32px;
-    position:fixed;
+    position: fixed;
     width: 100%;
     top: 0;
     max-height: 10vh;
     z-index: 20;
-    background-color: blanchedalmond;
+    background-color: #8892b0;
+    color: #64ffda
+}
+
+.nav-bar-container a {
+    color: #64ffda;
+}
+
+p:hover {
+    opacity: 0.5;
 }
 

@@ -1,7 +1,16 @@
 .projects-container {
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: brown;
+    background-color: #0a192f;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card-container {
+    background-color: #112240;
+    width: 350px;
+    height: 300px;
 }

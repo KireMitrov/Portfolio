@@ -5,7 +5,12 @@ import "./projects.css"
 function Projects () {
 
     return (
-        <div className="projects-container" id="projects">Helloo from projects</div>
+        <div className="projects-container" id="projects">
+            <div className="project-card-container"></div>
+            <div className="project-card-container"></div>
+            <div className="project-card-container"></div>
+            <div className="project-card-container"></div>
+        </div>
     )
 }
 
