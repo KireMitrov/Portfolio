@@ -29,7 +29,6 @@
     flex-wrap:wrap;
     margin: 25vh;
     gap:50px;
-
 }
 
 .projects-container img {
@@ -67,3 +66,7 @@
     padding: 6px;
     border-radius: 6px; 
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  
+  }

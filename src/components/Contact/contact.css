@@ -31,3 +31,11 @@
     background-color: inherit;
     border: 1px solid #64fada;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .contact-inputs {
+    width: 80vw;
+    gap:1em;
+    height: 70vh;
+  }
+}

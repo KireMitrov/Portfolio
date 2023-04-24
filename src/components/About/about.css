@@ -61,3 +61,11 @@
     background-color: #a8b2d1;
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+    .social-media {
+        display: none;
+    }
+    .name {
+        font-size: 2em;
+    }
+  }
