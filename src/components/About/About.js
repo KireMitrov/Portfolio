@@ -1,53 +1,19 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 import "./about.css"
 
-function About() {
+function About(){
 
-    return (
-
-        <div className="main-container" id="about">
-            <div className="main-text">
-                <div className="greeting">
-                    <Typewriter className="greeting" onInit={(typewriter) => {
-                        typewriter
-                            .typeString("Hi, my name is")
-                            .start();
-                    }}></Typewriter>
-                </div>
-                <h1 className="name">
-                    <Typewriter onInit={(typewriter) => {
-                        typewriter
-                            .pauseFor(1800)
-                            .typeString("Kire Mitrov")
-                            .start();
-                    }}></Typewriter>
-                </h1>
-                <p className="ocupation">
-                    <Typewriter
-                        onInit={(typewriter) => {
-                            typewriter
-                                .pauseFor(3000)
-                                .typeString("Front-End Developer")
-                                .deleteAll()
-                                .typeString("JavaScript Developer")
-                                .deleteAll()
-                                .typeString("ReactJS Developer")
-                                .start();
-                        }}
-                        options={{
-                            loop: true,
-                        }}
-                    >
-                    </Typewriter>
-                </p>
+    return(
+        <div className="about-container" id="about">
+            <div className="about-header">About me</div>
+            <div className="about-text">
+                <div>I am Kire, a Junior Front-End Developer with a solid foundation in Front-End development. I completed an 10-month coding BootCamp and have a deep understanding of the latest development practices and techniques, including proficiency in HTML/CSS, JavaScript, React.js, and Node.js. I have also used the months after the bootcamp to keep sharpening my skills.</div>
+                <div>My college background in Engineering helps me approach Front-End development with a unique problem-solving perspective, allowing me to find innovative solutions to complex problems.</div>
+                <div>With my combination of skills and experience, I am a valuable addition to any team looking for a Junior Front-End Developer who is committed to delivering exceptional results. I am particularly passionate about React.js and enjoy creating dynamic and responsive web applications.</div>
+                <div>If you are interested in learning more about my skills and experience with Front-End development, please feel free to contact me.</div>
             </div>
-            <div className="social-media">
-                <a href="https://linkedin.com/in/kiremitrov" target="_blank" ><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/KireMitrov" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:kire_val@yahoo.com.com"><i class="fas fa-at"></i></a>
-                <a href="tel:555-555-5555"><i class="fas fa-mobile-alt"></i></a>
-            </div>
+            <div className="skills">Skills</div>
+            <div className="skills-container"></div>
         </div>
     )
 }
