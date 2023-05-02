@@ -1,9 +1,11 @@
 import React from "react";
 import "./about.css"
 
-function About(){
+function About() {
 
-    return(
+    const skills = ["html5", "css3", "javascript", "react", "nodejs", "mongodb", "git", "github"]
+
+    return (
         <div className="about-container" id="about">
             <div className="about-header">About me</div>
             <div className="about-text">
@@ -13,7 +15,11 @@ function About(){
                 <div>If you are interested in learning more about my skills and experience with Front-End development, please feel free to contact me.</div>
             </div>
             <div className="skills">Skills</div>
-            <div className="skills-container"></div>
+            <div className="skills-container">
+                {skills.map((skill) => (
+                        <img className="svg-images" src={require(`../../assets/images/skills/${skill}.png`)} />
+                ))}
+            </div>
         </div>
     )
 }
