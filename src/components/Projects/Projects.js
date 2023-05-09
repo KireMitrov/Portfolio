@@ -30,6 +30,12 @@ function Projects() {
             description: `Step progress bar which is showing you on where exactly is your shopping experince, how many steps you have completed and how many left till you complete your order. `,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"]
         },
+        {
+            projectName: "to Do List",
+            projectImages: ["todolist"],
+            description: `Todo App made with ReactJS. You can add, edit and delete tasks. The tasks are saved in local storage and available after closing the window.`,
+            stack: ["Html", "CSS", "JavaScript", "ReactJS"]
+        },
     ]
 
     return (
