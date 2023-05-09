@@ -36,6 +36,12 @@ function Projects() {
             description: `Todo App made with ReactJS. You can add, edit and delete tasks. The tasks are saved in local storage and available after closing the window.`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"]
         },
+        {
+            projectName: "Quiz App",
+            projectImages: ["quiz1","quiz2","quiz3","quiz4",],
+            description: `Quiz App made with ReactJS and NodeJs. This app has server done with NodeJs where the data is stored on MongoDb database. It have a Admin page too where you can easily add new questions`,
+            stack: ["ReactJS", "NodeJS", "MongoDb"]
+        },
     ]
 
     return (
