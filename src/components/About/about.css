@@ -56,4 +56,12 @@
         width: auto;
         height: 5vh;
     }
+
+    .skills-container{
+        padding: 32px 16px;
+    }
+
+    .about-text {
+        padding-top: 32px;
+    }
 }

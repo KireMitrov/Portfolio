@@ -55,7 +55,7 @@ function Projects() {
                             <Slide>
                                 {project.projectImages.map((fadeImage, index) => (
                                     <div key={index}>
-                                        <img style={{ width: '80%' }} src={require(`../../assets/images/projects/${fadeImage}.png`)} />
+                                        <img style={{ width: '80%', maxHeight: '50%' }} src={require(`../../assets/images/projects/${fadeImage}.png`)} />
                                     </div>
                                 ))}
                             </Slide>
