@@ -41,6 +41,17 @@
     flex-wrap: wrap;
     gap: 16px;
 }
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
 
 .svg-images {
     width: 8vw;
@@ -48,8 +59,14 @@
     border-radius: 5px;
     padding: 0.2em;
     background-color: #64ffda;
+    animation: float 3s ease-in-out infinite;
 }
 
+
+.svg-images:hover{
+    scale: 1.2;
+    transition-duration: 2s;
+}
 
 @media (min-width: 320px) and (max-width: 768px) {
     .svg-images{

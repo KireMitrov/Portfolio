@@ -50,6 +50,7 @@
 
 .social-media a:hover {
     color: #64ffda;
+    scale:1.2;
 }
 
 .social-media:after {

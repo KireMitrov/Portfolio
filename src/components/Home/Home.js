@@ -46,7 +46,7 @@ function Home() {
                 <a href="https://linkedin.com/in/kiremitrov" target="_blank" ><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/KireMitrov" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="mailto:kire_val@yahoo.com.com"><i class="fas fa-at"></i></a>
-                <a href="tel:555-555-5555"><i class="fas fa-mobile-alt"></i></a>
+                <a href="tel:0040756857379"><i class="fas fa-mobile-alt"></i></a>
             </div>
         </div>
     )

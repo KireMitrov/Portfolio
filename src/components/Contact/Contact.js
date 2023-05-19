@@ -9,9 +9,9 @@ function Contact () {
             <div className="contact-inputs">
                 <div>GET IN TOUCH</div>
                 <div>Contact</div>
-                <label>Your Name</label>
+                <label>Name</label>
                 <input type="text"></input>
-                <label>Your email</label>
+                <label>Email</label>
                 <input type="text"></input>
                 <label>Your message</label>
                 <textarea rows="5"></textarea>

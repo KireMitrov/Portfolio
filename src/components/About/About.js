@@ -17,7 +17,7 @@ function About() {
             <div className="skills">Skills</div>
             <div className="skills-container">
                 {skills.map((skill) => (
-                        <img className="svg-images" src={require(`../../assets/images/skills/${skill}.png`)} />
+                        <div><img className="svg-images" src={require(`../../assets/images/skills/${skill}.png`)} /></div>
                 ))}
             </div>
         </div>

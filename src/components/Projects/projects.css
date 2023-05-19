@@ -41,15 +41,27 @@
 
 
 .project-card-container {
+    position:relative;
     background-color: #0a192f;
     border-radius: 8px;
     width: 35vw;
     text-align: center;
-    height: 65vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 16px;
+}
+
+.project-card-container:hover {
+    transform: translateY(-25px);
+    transition-duration: 1s;
+}
+
+.project-card-container:hover .project-name{
+    scale: 1.3;
+    color: #64fada;
+    transition-duration: 1s;
 }
 
 .description {
@@ -66,8 +78,25 @@
 
 .technology {
     background-color: #8892b0;
-    padding: 6px;
+    padding: 6px 12px;
     border-radius: 6px;
+}
+
+
+.project-links {
+    position:absolute;
+    left:75%;
+    top:3%;
+}
+
+.project-links a{
+    color: #8892b0;
+    padding: 16px;
+    font-size: 32px;
+}
+
+.project-links a:hover {
+    color: #64fada;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {

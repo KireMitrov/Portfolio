@@ -31,6 +31,7 @@
   padding: 12px;
   background-color: inherit;
   border: 1px solid #64fada;
+  box-shadow: 0 4px 6px -2px #050816, 0 4px 6px -2px #050816 ;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
