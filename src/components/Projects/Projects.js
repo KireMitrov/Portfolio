@@ -11,42 +11,48 @@ function Projects() {
             projectImages: ["landingpage1", "landingpage2", "landingpage3"],
             description: `This is a landing page made for travel agancies where you can put your credentials in a form and win a trip with a lottery, additonal there is comercial trips which the agency is selling`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub:"https://github.com/KireMitrov/React-Landing-Page"
+            linkGithub:"https://github.com/KireMitrov/React-Landing-Page",
+            linkLive: "https://landingpage-kire.netlify.app/"
         },
         {
             projectName: "weatherapp",
             projectImages: ['weatherapp1'],
             description: `Weather app which initialy is showing you the weather of the current positio. There is search bar where you can find and display the weather up to your wish`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub:"https://github.com/KireMitrov/React-Weather-App"
+            linkGithub:"https://github.com/KireMitrov/React-Weather-App",
+            linkLive: "https://kire-mitrov.netlify.app/"
         },
         {
             projectName: "cart",
             projectImages: ["cart1", "cart2", "cart3"],
             description: `E-commerce shoping cart made with ReactJS class components. The shopping cart have multiple categories, cart overlay view and cart view. All the poducts have multiple attributes which you can change either in cart page either in cart-overlay.`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub:"https://github.com/KireMitrov/Shopping-cart-classes"
+            linkGithub:"https://github.com/KireMitrov/Shopping-cart-classes",
+            linkLive: "https://kire-mitrov.netlify.app/"
         },
         {
             projectName: "progressbar",
             projectImages: ["progressbar1", "progressbar2", "progressbar3"],
             description: `Step progress bar which is showing you on where exactly is your shopping experince, how many steps you have completed and how many left till you complete your order. `,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub:"https://github.com/KireMitrov/React-ProgressBar-component"
+            linkGithub:"https://github.com/KireMitrov/React-ProgressBar-component",
+            linkLive: "https://kire-mitrov.netlify.app/"
         },
         {
             projectName: "to Do List",
             projectImages: ["todolist"],
             description: `Todo App made with ReactJS. You can add, edit and delete tasks. The tasks are saved in local storage and available after closing the window.`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub:"https://github.com/KireMitrov/ReactJs-To-Do-App"
+            linkGithub:"https://github.com/KireMitrov/ReactJs-To-Do-App",
+            linkLive: "https://todoapp-kire.netlify.app/"
         },
         {
             projectName: "Quiz App",
             projectImages: ["quiz1","quiz2","quiz3","quiz4",],
             description: `Quiz App made with ReactJS and NodeJs. This app has server done with NodeJs where the data is stored on MongoDb database. It have a Admin page too where you can easily add new questions`,
             stack: ["ReactJS", "NodeJS", "MongoDb"],
-            linkGithub:"https://github.com/KireMitrov"
+            linkGithub:"https://github.com/KireMitrov",
+            linkLive: "https://kire-mitrov.netlify.app/"
         },
     ]
 
@@ -72,7 +78,7 @@ function Projects() {
                         ))}</div>
                         <div className="project-links">
                         <a href={project.linkGithub} target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://kire-mitrov.netlify.app/" target="_blank"><i class="fas fa-globe"></i></a>
+                        <a href={project.linkLive} target="_blank"><i class="fas fa-globe"></i></a>
                         </div>
                     </div>
                 ))}

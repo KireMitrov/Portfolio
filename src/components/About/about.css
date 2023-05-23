@@ -68,7 +68,7 @@
     transition-duration: 2s;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 912px) {
     .svg-images{
         width: auto;
         height: 5vh;

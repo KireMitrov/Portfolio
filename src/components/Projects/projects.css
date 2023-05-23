@@ -99,7 +99,7 @@
     color: #64fada;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width:912px) {
     .projects-container {
         display: flex;
         align-items: center;
@@ -112,5 +112,13 @@
 
     .project-card-container {
         width: 90%;
+    }
+
+    .technology {
+        padding: 6px 8px;
+    }
+
+    .project-links a {
+        font-size: 14px;
     }
 }

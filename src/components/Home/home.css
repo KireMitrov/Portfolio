@@ -62,7 +62,7 @@
     background-color: #a8b2d1;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 912px) {
     .social-media {
         display: none;
     }
