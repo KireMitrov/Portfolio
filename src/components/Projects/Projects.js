@@ -20,7 +20,7 @@ function Projects() {
             description: `Weather app which initialy is showing you the weather of the current positio. There is search bar where you can find and display the weather up to your wish`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
             linkGithub:"https://github.com/KireMitrov/React-Weather-App",
-            linkLive: "https://kire-mitrov.netlify.app/"
+            linkLive: "https://kire-weatherapp.netlify.app/"
         },
         {
             projectName: "cart",
@@ -77,8 +77,8 @@ function Projects() {
                             <div className="technology">{technology}</div>
                         ))}</div>
                         <div className="project-links">
-                        <a href={project.linkGithub} target="_blank"><i class="fab fa-github"></i></a>
-                        <a href={project.linkLive} target="_blank"><i class="fas fa-globe"></i></a>
+                        <a href={project.linkGithub} title="Source code" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href={project.linkLive} title="Click to visit the app" target="_blank"><i class="fas fa-globe"></i></a>
                         </div>
                     </div>
                 ))}
