@@ -36,7 +36,7 @@ function Projects() {
             description: `Step progress bar which is showing you on where exactly is your shopping experince, how many steps you have completed and how many left till you complete your order. `,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
             linkGithub:"https://github.com/KireMitrov/React-ProgressBar-component",
-            linkLive: "https://kire-mitrov.netlify.app/"
+            linkLive: "https://progressbar-kire.netlify.app/"
         },
         {
             projectName: "to Do List",
