@@ -28,7 +28,7 @@ function Projects() {
             description: `E-commerce shoping cart made with ReactJS class components. The shopping cart have multiple categories, cart overlay view and cart view. All the poducts have multiple attributes which you can change either in cart page either in cart-overlay.`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
             linkGithub:"https://github.com/KireMitrov/Shopping-cart-classes",
-            linkLive: "https://kire-mitrov.netlify.app/"
+            linkLive: "https://cart-kire.netlify.app/all"
         },
         {
             projectName: "progressbar",
