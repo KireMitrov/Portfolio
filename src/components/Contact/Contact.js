@@ -13,12 +13,12 @@ function Contact() {
         
         setConfirmSend(true);
 
-        // emailjs.sendForm('service_81m8pmq', 'template_xlaqqmt', form.current, 'i3av93C8u0QQb9--k')
-        //   .then((result) => {
-        //       console.log(result.text);
-        //   }, (error) => {
-        //       console.log(error.text);
-        //   });
+        emailjs.sendForm('service_81m8pmq', 'template_xlaqqmt', form.current, 'i3av93C8u0QQb9--k')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
       };
 
     return (
