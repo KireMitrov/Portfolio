@@ -38,9 +38,13 @@
     width: 100%;
     justify-content: space-around;
     padding: 0 12vw;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 16px;
+    width: 100%;
+    overflow: hidden;
 }
+
+
 @keyframes float {
     0% {
         transform: translatey(0px);
@@ -51,6 +55,8 @@
     100% {
         transform: translatey(0px);
     }
+    /* 0% {transform: translateX(2000%)}
+      100% {transform: translateX(-2000%)} */
 }
 
 .svg-images {
@@ -59,7 +65,8 @@
     border-radius: 5px;
     padding: 0.2em;
     background-color: #64ffda;
-    animation: float 3s ease-in-out infinite;
+    animation: float 3s linear infinite;
+    /* display: inline-block; */
 }
 
 

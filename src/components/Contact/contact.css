@@ -11,7 +11,7 @@
   height: 65%;
   width: 50%;
   border-radius: 10px;
-  color: antiquewhite;
+  color: #ccd6f6;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -24,15 +24,51 @@
   height: 32px;
 }
 
+.contact-inputs label {
+  color: #ccd6f6;
+}
 
-.contact-inputs button {
+/* .contact-inputs button {
   color: #64ffda;
   border-radius: 6px;
   padding: 12px;
-  background-color: inherit;
+  background-color: transparent;
   border: 1px solid #64fada;
-  box-shadow: 0 4px 6px -2px #050816, 0 4px 6px -2px #050816 ;
+  cursor: pointer;
+} */
+
+.form {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: 100%;
+  height: 75%;
+  gap: 16px;
 }
+
+
+.sendBtn {
+  color: #64ffda;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #64fada;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #ccd6f6;
+  background-color: #0a192f;
+  transition: 0.8s ease;
+}
+
+.sendBtn:hover {
+  color: #ccd6f6;
+  background-color: #0a192f;
+  transition: 0.8s ease;
+}
+
+
+
 
 @media (min-width: 320px) and (max-width: 912px) {
   .contact-inputs {
