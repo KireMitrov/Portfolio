@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser"
 import "./contact.css"
 
@@ -6,16 +6,19 @@ import "./contact.css"
 function Contact() {
 
     const form = useRef();
+    const [confirmSend, setConfirmSend] = useState(false)
 
     const sendEmail = (e) => {
         e.preventDefault();
-    
-        emailjs.sendForm('service_81m8pmq', 'template_xlaqqmt', form.current, 'i3av93C8u0QQb9--k')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
+        
+        setConfirmSend(true);
+
+        // emailjs.sendForm('service_81m8pmq', 'template_xlaqqmt', form.current, 'i3av93C8u0QQb9--k')
+        //   .then((result) => {
+        //       console.log(result.text);
+        //   }, (error) => {
+        //       console.log(error.text);
+        //   });
       };
 
     return (
@@ -33,6 +36,7 @@ function Contact() {
                         <input type="submit"  className="sendBtn" value="Send message" />
                     </form>
             </div>
+                <div className={`confirm-send ${confirmSend ? "visible" : ""}`}> <span className="checked-sign">&#10003;</span> Your message has been send. <span className="close-btn" onClick={() => setConfirmSend(false)}>x</span></div>
         </div>
     )
 }

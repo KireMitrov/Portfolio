@@ -1,4 +1,5 @@
 .contact-container {
+  position: relative;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -28,14 +29,7 @@
   color: #ccd6f6;
 }
 
-/* .contact-inputs button {
-  color: #64ffda;
-  border-radius: 6px;
-  padding: 12px;
-  background-color: transparent;
-  border: 1px solid #64fada;
-  cursor: pointer;
-} */
+
 
 .form {
   display: flex;
@@ -68,7 +62,42 @@ button:hover {
 }
 
 
+.confirm-send {
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+  top: 6%;
+  height: 50px;
+  background-color: #112240;
+  display: flex;
+  align-items: center;
+  color: #ccd6f6;
+  padding: 32px;
+  border-radius: 6px;
+  transform: translateX(50vw);
+}
 
+.visible{
+  visibility: visible;
+  transition: 3s;
+  transform: translateX(0vw);
+}
+
+.checked-sign {
+  color: #64fada;
+  padding: 4px;
+  border: 1px solid #64fada;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.close-btn{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: red;
+  cursor: pointer;
+}
 
 @media (min-width: 320px) and (max-width: 912px) {
   .contact-inputs {
