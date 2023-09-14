@@ -28,15 +28,15 @@ function Contact() {
                 <div>Contact</div>
                     <form  className="form" ref={form} onSubmit={sendEmail}>
                         <label>Name</label>
-                        <input type="text" name="user_name" />
+                        <input type="text" name="user_name" required/>
                         <label>Email</label>
-                        <input type="email" name="user_email" />
+                        <input type="email" name="user_email" required />
                         <label>Message</label>
                         <textarea name="message"  rows="5"/>
-                        <input type="submit"  className="sendBtn" value="Send message" />
+                        <input type="submit"  className="sendBtn" value="Send message" required />
                     </form>
             </div>
-                <div className={`confirm-send ${confirmSend ? "visible" : ""}`}> <span className="checked-sign">&#10003;</span> Your message has been send. <span className="close-btn" onClick={() => setConfirmSend(false)}>x</span></div>
+                <div className={`confirm-send ${confirmSend ? "visible" : ""}`}> <span className="checked-sign">&#10003;</span> Thank you for your contact. <span className="close-btn" onClick={() => setConfirmSend(false)}>x</span></div>
         </div>
     )
 }

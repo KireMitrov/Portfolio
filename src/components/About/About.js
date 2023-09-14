@@ -1,9 +1,10 @@
 import React from "react";
 import "./about.css"
+import Slider from '../Slider/Slider';
+
+
 
 function About() {
-
-    const skills = ["html5", "css3", "javascript", "react", "nodejs", "mongodb", "git", "github"]
 
     return (
         <div className="about-container" id="about">
@@ -15,11 +16,7 @@ function About() {
                 <div>If you are interested in learning more about my skills and experience with Front-End development, please feel free to contact me.</div>
             </div>
             <div className="skills">Skills</div>
-            <div className="skills-container">
-                {skills.map((skill) => (
-                        <div><img className="svg-images" src={require(`../../assets/images/skills/${skill}.png`)} /></div>
-                ))}
-            </div>
+            <Slider></Slider>
         </div>
     )
 }

@@ -9,12 +9,12 @@ import Projects from './components/Projects/Projects';
 function App() {
   return (
     <div>
-      <NavBar/>
-      <Home/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <NavBar />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
