@@ -62,7 +62,7 @@ button:hover {
 .confirm-send {
   position: absolute;
   right: 0;
-  top: 10%;
+  top: 5%;
   height: 50px;
   background-color: #112240;
   display: flex;
@@ -70,12 +70,12 @@ button:hover {
   color: #ccd6f6;
   padding: 32px;
   border-radius: 6px;
-  transform: translateX(100vw);
+  opacity: 0;
 }
 
 .visible {
-  transition: 2s;
-  transform: translateX(0vw);
+  transition: 5s;
+  opacity: 1;
 }
 
 .checked-sign {
