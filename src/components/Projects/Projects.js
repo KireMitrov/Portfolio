@@ -7,12 +7,28 @@ function Projects() {
 
     const projects = [
         {
-            projectName: "landingpage",
-            projectImages: ["landingpage1", "landingpage2", "landingpage3"],
-            description: `This is a landing page made for travel agancies where you can put your credentials in a form and win a trip with a lottery, additonal there is comercial trips which the agency is selling`,
+            projectName: "cart",
+            projectImages: ["cart1", "cart2", "cart3"],
+            description: `E-commerce shoping cart made with ReactJS class components. The shopping cart have multiple categories, cart overlay view and cart view. All the poducts have multiple attributes which you can change either in cart page either in cart-overlay.`,
+            stack: ["JavaScript", "ReactJS", "GraphQL"],
+            linkGithub:"https://github.com/KireMitrov/Shopping-cart-classes",
+            linkLive: "https://cart-kire.netlify.app/"
+        },
+        {
+            projectName: "to Do List",
+            projectImages: ["todolist"],
+            description: `Todo App made with ReactJS. You can add, edit and delete tasks. The tasks are saved in local storage and available after closing the window.`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub:"https://github.com/KireMitrov/React-Landing-Page",
-            linkLive: "https://landingpage-kire.netlify.app/"
+            linkGithub:"https://github.com/KireMitrov/ReactJs-To-Do-App",
+            linkLive: "https://todoapp-kire.netlify.app/"
+        },
+        {
+            projectName: "crypto coins graphs",
+            projectImages: ["cryptocoins1", "cryptocoins2", "cryptocoins3"],
+            description: `crypto price tracking app using the React and the Coingecko Api.`,
+            stack: ["ReactJs", "Coingecko Api", "Axios", "Recharts"],
+            linkGithub:"https://github.com/KireMitrov/crypto-coins",
+            linkLive: "https://crypto-info-kire.netlify.app/"
         },
         {
             projectName: "weatherapp",
@@ -23,14 +39,6 @@ function Projects() {
             linkLive: "https://kire-weatherapp.netlify.app/"
         },
         {
-            projectName: "cart",
-            projectImages: ["cart1", "cart2", "cart3"],
-            description: `E-commerce shoping cart made with ReactJS class components. The shopping cart have multiple categories, cart overlay view and cart view. All the poducts have multiple attributes which you can change either in cart page either in cart-overlay.`,
-            stack: ["JavaScript", "ReactJS", "GraphQL"],
-            linkGithub:"https://github.com/KireMitrov/Shopping-cart-classes",
-            linkLive: "https://cart-kire.netlify.app/"
-        },
-        {
             projectName: "progressbar",
             projectImages: ["progressbar1", "progressbar2", "progressbar3"],
             description: `Step progress bar which is showing you on where exactly is your shopping experince, how many steps you have completed and how many left till you complete your order. `,
@@ -39,12 +47,12 @@ function Projects() {
             linkLive: "https://progressbar-kire.netlify.app/"
         },
         {
-            projectName: "to Do List",
-            projectImages: ["todolist"],
-            description: `Todo App made with ReactJS. You can add, edit and delete tasks. The tasks are saved in local storage and available after closing the window.`,
+            projectName: "landingpage",
+            projectImages: ["landingpage1", "landingpage2", "landingpage3"],
+            description: `This is a landing page made for travel agancies where you can put your credentials in a form and win a trip with a lottery, additonal there is comercial trips which the agency is selling`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub:"https://github.com/KireMitrov/ReactJs-To-Do-App",
-            linkLive: "https://todoapp-kire.netlify.app/"
+            linkGithub:"https://github.com/KireMitrov/React-Landing-Page",
+            linkLive: "https://landingpage-kire.netlify.app/"
         },
         {
             projectName: "Quiz App",
