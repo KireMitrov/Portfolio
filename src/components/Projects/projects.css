@@ -46,11 +46,12 @@
     border-radius: 8px;
     width: 35vw;
     text-align: center;
-    height: 75vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 16px;
+    gap:16px;
 }
 
 .project-card-container:hover {
