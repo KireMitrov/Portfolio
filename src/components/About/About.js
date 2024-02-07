@@ -12,7 +12,7 @@ function About() {
             <Fade direction="up" duration={2000}>
                 <div className="about-header">About me</div>
             </Fade>
-            <Fade direction="up" duration={2000} delay={500}>
+            <Fade direction="left" duration={2000} delay={500}>
                 <div className="about-text">
                     <div>I am Kire, Front-End Developer. I completed an 10-month coding BootCamp and have a deep understanding of the latest development practices and techniques, including proficiency in HTML/CSS, JavaScript, React.js, and Node.js. I have also used the months after the bootcamp to keep sharpening my skills.</div>
                     <div>My college background in Engineering helps me approach Front-End development with a unique problem-solving perspective, allowing me to find innovative solutions to complex problems.</div>

@@ -70,7 +70,6 @@ function Projects() {
             <div className="projects-title"> Some of the things I`ve build</div>
             <div className="projects-container">
                 {projects.map((project) => (
-                    <Fade direction="left" duration={1500}>
                         <div className="project-card-container">
                             <div className="project-name">{project.projectName}</div>
                             <div className="slide-container">
@@ -91,7 +90,6 @@ function Projects() {
                                 <a href={project.linkLive} title="Click to visit the app" target="_blank"><i class="fas fa-globe"></i></a>
                             </div>
                         </div>
-                    </Fade>
                 ))}
             </div>
         </div>
