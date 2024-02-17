@@ -8,12 +8,28 @@ function Projects() {
 
     const projects = [
         {
-            projectName: "cart",
+            projectName: "Real Estate",
+            projectImages: ["realestate1", "realestate2", "realestate3", "realestate4","realestate5"],
+            description: `Project made for real estate agency, where are listed unique properties in different layouts and categories.`,
+            stack: ["JavaScript", "ReactJS", "Slick"],
+            linkGithub: "https://github.com/KireMitrov/Shopping-cart-classes",
+            linkLive: "https://realestate-kire.netlify.app/"
+        },
+        {
+            projectName: "E-Commerce",
             projectImages: ["cart1", "cart2", "cart3"],
             description: `E-commerce shoping cart made with ReactJS class components. The shopping cart have multiple categories, cart overlay view and cart view. All the poducts have multiple attributes which you can change either in cart page either in cart-overlay.`,
             stack: ["JavaScript", "ReactJS", "GraphQL"],
             linkGithub: "https://github.com/KireMitrov/Shopping-cart-classes",
             linkLive: "https://cart-kire.netlify.app/"
+        },
+        {
+            projectName: "crypto coins graphs",
+            projectImages: ["cryptocoins1", "cryptocoins2", "cryptocoins3"],
+            description: `Crypto price tracking app using the React and the Coingecko Api.`,
+            stack: ["ReactJs", "Coingecko Api", "Axios", "Recharts"],
+            linkGithub: "https://github.com/KireMitrov/crypto-coins",
+            linkLive: "https://crypto-info-kire.netlify.app/"
         },
         {
             projectName: "to Do List",
@@ -23,22 +39,14 @@ function Projects() {
             linkGithub: "https://github.com/KireMitrov/ReactJs-To-Do-App",
             linkLive: "https://todoapp-kire.netlify.app/"
         },
-        {
-            projectName: "crypto coins graphs",
-            projectImages: ["cryptocoins1", "cryptocoins2", "cryptocoins3"],
-            description: `crypto price tracking app using the React and the Coingecko Api.`,
-            stack: ["ReactJs", "Coingecko Api", "Axios", "Recharts"],
-            linkGithub: "https://github.com/KireMitrov/crypto-coins",
-            linkLive: "https://crypto-info-kire.netlify.app/"
-        },
-        {
-            projectName: "weatherapp",
-            projectImages: ['weatherapp1'],
-            description: `Weather app which initialy is showing you the weather of the current positio. There is search bar where you can find and display the weather up to your wish`,
-            stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub: "https://github.com/KireMitrov/React-Weather-App",
-            linkLive: "https://kire-weatherapp.netlify.app/"
-        },
+        // {
+        //     projectName: "weatherapp",
+        //     projectImages: ['weatherapp1'],
+        //     description: `Weather app which initialy is showing you the weather of the current positio. There is search bar where you can find and display the weather up to your wish`,
+        //     stack: ["Html", "CSS", "JavaScript", "ReactJS"],
+        //     linkGithub: "https://github.com/KireMitrov/React-Weather-App",
+        //     linkLive: "https://kire-weatherapp.netlify.app/"
+        // },
         {
             projectName: "progressbar",
             projectImages: ["progressbar1", "progressbar2", "progressbar3"],
