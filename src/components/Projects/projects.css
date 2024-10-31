@@ -111,14 +111,22 @@
         width: 100vw;
     }
 
+    .projects-title {
+        width: 80%;
+    }
+
     .project-card-container {
-        width: 90%;
+        width: 80%;
     }
 
     .technology {
         padding: 6px 8px;
     }
 
+    .project-links {
+        display: flex;
+    }
+    
     .project-links a {
         font-size: 14px;
     }

@@ -24,23 +24,23 @@ function Contact() {
 
     return (
         <div className="contact-container" id="contact">
-                <Fade direction="up" duration={2000}>
-                    <div className="contact-inputs contact-container">
-                        <div className="contact-title">GET IN TOUCH</div>
-                        <div>Contact</div>
-                        <form className="form" ref={form} onSubmit={sendEmail}>
-                            <label>Name</label>
-                            <input type="text" name="user_name" required />
-                            <label>Email</label>
-                            <input type="email" name="user_email" required />
-                            <label>Message</label>
-                            <textarea name="message" rows="5" />
-                            <input type="submit" className="sendBtn" value="Send message" required />
-                        </form>
-                    </div>
+            <Fade direction="up" duration={2000}>
+                <div className="contact-inputs contact-container">
+                    <div className="contact-title">GET IN TOUCH</div>
+                    <div>Contact</div>
+                    <form className="form" ref={form} onSubmit={sendEmail}>
+                        <label>Name</label>
+                        <input type="text" name="user_name" required />
+                        <label>Email</label>
+                        <input type="email" name="user_email" required />
+                        <label>Message</label>
+                        <textarea name="message" rows="5" />
+                        <input type="submit" className="sendBtn" value="Send message" required />
+                    </form>
+                </div>
                 <div className={`confirm-send ${confirmSend ? "visible" : ""}`}> <span className="checked-sign">&#10003;</span> Thank you for your contact. <span className="close-btn" onClick={() => setConfirmSend(false)}>x</span></div>
-        </Fade>
-            </div>
+            </Fade>
+        </div>
     )
 }
 

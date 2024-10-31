@@ -19,7 +19,7 @@ function Home() {
                     <Typewriter onInit={(typewriter) => {
                         typewriter
                             .pauseFor(1800)
-                            .typeString("Kire Mitrov")
+                            .typeString("Kire Mitrov.")
                             .start();
                     }}></Typewriter>
                 </h1>

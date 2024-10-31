@@ -1,6 +1,6 @@
 .main-container {
-    height: 100vh;
-    position: relative;
+    min-height: 100vh;
+    /* position: relative; */
     background-color: #112240;
 }
 
@@ -13,15 +13,17 @@
 }
 
 .main-text {
+    min-height: 100vh;
     display: flex;
-    align-items: center;
+    padding-left: 10%;
+    /* align-items: center; */
+    /* justify-items: center; */
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    position:absolute;
+    /* position:absolute;
     top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
 }
 
 .name {

@@ -11,6 +11,7 @@ function NavBar() {
 
     return (
         <div className="nav-bar-container">
+            <img src={require(`../../assets/images/logo/logo.png`)}/>
             <nav ref={navRef}>
                 <a href="#home" onClick={toggleNavbar}>Home</a>
                 <a href="#about" onClick={toggleNavbar}>About</a>
