@@ -31,14 +31,14 @@ function Projects() {
             linkGithub: "https://github.com/KireMitrov/crypto-coins",
             linkLive: "https://crypto-info-kire.netlify.app/"
         },
-        {
-            projectName: "to Do List",
-            projectImages: ["todolist"],
-            description: `Todo App made with ReactJS. You can add, edit and delete tasks. The tasks are saved in local storage and available after closing the window.`,
-            stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub: "https://github.com/KireMitrov/ReactJs-To-Do-App",
-            linkLive: "https://todoapp-kire.netlify.app/"
-        },
+        // {
+        //     projectName: "to Do List",
+        //     projectImages: ["todolist"],
+        //     description: `Todo App made with ReactJS. You can add, edit and delete tasks. The tasks are saved in local storage and available after closing the window.`,
+        //     stack: ["Html", "CSS", "JavaScript", "ReactJS"],
+        //     linkGithub: "https://github.com/KireMitrov/ReactJs-To-Do-App",
+        //     linkLive: "https://todoapp-kire.netlify.app/"
+        // },
         // {
         //     projectName: "weatherapp",
         //     projectImages: ['weatherapp1'],
@@ -47,16 +47,16 @@ function Projects() {
         //     linkGithub: "https://github.com/KireMitrov/React-Weather-App",
         //     linkLive: "https://kire-weatherapp.netlify.app/"
         // },
+        // {
+        //     projectName: "progressbar",
+        //     projectImages: ["progressbar1", "progressbar2", "progressbar3"],
+        //     description: `Step progress bar which is showing you on where exactly is your shopping experince, how many steps you have completed and how many left till you complete your order. `,
+        //     stack: ["Html", "CSS", "JavaScript", "ReactJS"],
+        //     linkGithub: "https://github.com/KireMitrov/React-ProgressBar-component",
+        //     linkLive: "https://progressbar-kire.netlify.app/"
+        // },
         {
-            projectName: "progressbar",
-            projectImages: ["progressbar1", "progressbar2", "progressbar3"],
-            description: `Step progress bar which is showing you on where exactly is your shopping experince, how many steps you have completed and how many left till you complete your order. `,
-            stack: ["Html", "CSS", "JavaScript", "ReactJS"],
-            linkGithub: "https://github.com/KireMitrov/React-ProgressBar-component",
-            linkLive: "https://progressbar-kire.netlify.app/"
-        },
-        {
-            projectName: "landingpage",
+            projectName: "Travel Agency",
             projectImages: ["landingpage1", "landingpage2", "landingpage3"],
             description: `This is a landing page made for travel agancies where you can put your credentials in a form and win a trip with a lottery, additonal there is comercial trips which the agency is selling`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
