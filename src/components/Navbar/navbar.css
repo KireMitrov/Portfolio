@@ -1,7 +1,6 @@
 .nav-bar-container {
     display: flex;
     align-items: center;
-    /* justify-content: flex-end; */
     flex-direction: row;
     padding: 32px;
     position: fixed;
@@ -10,7 +9,8 @@
     max-height: 14vh;
     z-index: 20;
     background-color: #112240;
-    color: #64ffda
+    color: #64ffda;
+    box-shadow: 0 10px 30px -10px rgba(2, 12, 24, 0.7);
 }
 
 nav {
@@ -60,7 +60,7 @@ a:hover {
         visibility: visible;
         opacity: 1;
     }
-
+    
     nav {
         position: fixed;
         top: 0;
@@ -71,12 +71,13 @@ a:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: #8892b0;
+        background-color: inherit;
         gap: 1.5rem;
         transition: 1s;
+        box-shadow: 0 10px 30px -10px rgba(2, 12, 24, 0.7);
         transform: translateY(-100vh);
     }
-
+    
     .responsive-nav {
         transform: none;
     }
