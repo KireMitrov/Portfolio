@@ -3,13 +3,14 @@ import "./projects.css"
 import { Slide, Zoom } from 'react-slideshow-image';
 import "react-slideshow-image/dist/styles.css"
 import { Fade } from 'react-awesome-reveal'
+import Tilt from 'react-parallax-tilt'
 
 function Projects() {
 
     const projects = [
         {
             projectName: "Real Estate",
-            projectImages: ["realestate1", "realestate2", "realestate3", "realestate4","realestate5"],
+            projectImages: ["realestate1", "realestate2", "realestate3", "realestate4", "realestate5"],
             description: `Project made for real estate agency, where are listed unique properties in different layouts and categories.`,
             stack: ["JavaScript", "ReactJS", "Slick"],
             linkGithub: "https://github.com/KireMitrov/Shopping-cart-classes",
@@ -78,6 +79,7 @@ function Projects() {
             <div className="projects-title"> Some of the things I`ve build</div>
             <div className="projects-container">
                 {projects.map((project) => (
+                    <Tilt>
                         <div className="project-card-container">
                             <div className="project-name">{project.projectName}</div>
                             <div className="slide-container">
@@ -98,6 +100,7 @@ function Projects() {
                                 <a href={project.linkLive} title="Click to visit the app" target="_blank"><i class="fas fa-globe"></i></a>
                             </div>
                         </div>
+                    </Tilt>
                 ))}
             </div>
         </div>

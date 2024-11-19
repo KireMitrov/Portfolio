@@ -54,15 +54,8 @@
     gap:16px;
 }
 
-.project-card-container:hover {
-    transform: translateY(-25px);
-    transition-duration: 1s;
-}
-
-.project-card-container:hover .project-name{
-    scale: 1.3;
-    color: #64fada;
-    transition-duration: 1s;
+.react-slideshow-container button {
+    display: none;
 }
 
 .description {

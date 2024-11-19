@@ -41,6 +41,7 @@ function Home() {
                     >
                     </Typewriter>
                 </p>
+                <a href="#contact" className="home-contact-btn">GET IN TOUCH</a>
             </div>
             <div className="social-media">
                 <a href="https://linkedin.com/in/kiremitrov" target="_blank" ><i class="fab fa-linkedin"></i></a>
