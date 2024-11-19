@@ -82,7 +82,7 @@
 
 .home-contact-btn:hover {
     background-color: #0a192f;
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
     background-position: left bottom;
 }
 

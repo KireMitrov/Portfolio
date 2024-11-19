@@ -57,7 +57,7 @@ function Projects() {
         //     linkLive: "https://progressbar-kire.netlify.app/"
         // },
         {
-            projectName: "Travel Agency",
+            projectName: "Win & Travel",
             projectImages: ["landingpage1", "landingpage2", "landingpage3"],
             description: `This is a landing page made for travel agancies where you can put your credentials in a form and win a trip with a lottery, additonal there is comercial trips which the agency is selling`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
@@ -81,24 +81,26 @@ function Projects() {
                 {projects.map((project) => (
                     <Tilt>
                         <div className="project-card-container">
-                            <div className="project-name">{project.projectName}</div>
                             <div className="slide-container">
                                 <Slide>
                                     {project.projectImages.map((fadeImage, index) => (
-                                        <div key={index}>
-                                            <img style={{ width: '80%', maxHeight: '50%' }} src={require(`../../assets/images/projects/${fadeImage}.png`)} />
-                                        </div>
+                                        <Fade direction="up" duration={1500}>
+                                            <div key={index}>
+                                                <img src={require(`../../assets/images/projects/${fadeImage}.png`)} />
+                                            </div>
+                                        </Fade>
                                     ))}
                                 </Slide>
                             </div>
-                            <div className="description">{project.description}</div>
+                            <Fade  direction="up" duration={1500} className="project-name">{project.projectName}</Fade>
+                            <Fade  direction="left" duration={1500} className="description">{project.description}</Fade>
                             <div className="technologies-container">{project.stack.map((technology) => (
-                                <div className="technology">{technology}</div>
+                                <Fade direction="up" duration={1500}><div  className="technology">#{technology}</div></Fade>
                             ))}</div>
-                            <div className="project-links">
-                                <a href={project.linkGithub} title="Source code" target="_blank"><i class="fab fa-github"></i></a>
-                                <a href={project.linkLive} title="Click to visit the app" target="_blank"><i class="fas fa-globe"></i></a>
-                            </div>
+                        <div className="project-links">
+                            <a href={project.linkGithub} title="Source code" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href={project.linkLive} title="Click to visit the app" target="_blank"><i class="fas fa-globe"></i></a>
+                        </div>
                         </div>
                     </Tilt>
                 ))}
