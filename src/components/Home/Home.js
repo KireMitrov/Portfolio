@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./home.css"
+import { TagCloud } from "@frank-mayer/react-tag-cloud";
 
 function Home() {
 
@@ -42,6 +43,27 @@ function Home() {
                     </Typewriter>
                 </p>
                 <a href="#contact" className="home-contact-btn">GET IN TOUCH</a>
+            {/* <TagCloud
+                options={(w: Window & typeof globalThis): TagCloudOptions => ({
+                    radius: Math.min(500, w.innerWidth, w.innerHeight) / 2,
+                    maxSpeed: "fast",
+                })}
+                onClick={(tag: string, ev: MouseEvent) => alert(tag)}
+                onClickOptions={{ passive: true }}
+            >
+                {[
+                    "VSCode",
+                    "TypeScript",
+                    "React",
+                    "Preact",
+                    "Parcel",
+                    "Jest",
+                    "Next",
+                    "ESLint",
+                    "Framer Motion",
+                    "Three.js",
+                ]}
+            </TagCloud> */}
             </div>
             <div className="social-media">
                 <a href="https://linkedin.com/in/kiremitrov" target="_blank" ><i class="fab fa-linkedin"></i></a>

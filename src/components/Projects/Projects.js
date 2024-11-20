@@ -79,8 +79,8 @@ function Projects() {
             <div className="projects-title"> Some of the things I`ve build</div>
             <div className="projects-container">
                 {projects.map((project) => (
-                    <Tilt>
-                        <div className="project-card-container">
+                            <Tilt>
+                    <div className="project-card-container">
                             <div className="slide-container">
                                 <Slide>
                                     {project.projectImages.map((fadeImage, index) => (

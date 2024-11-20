@@ -61,6 +61,7 @@
 
 .technologies-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     gap: 24px;
@@ -106,7 +107,7 @@
     }
 
     .project-card-container {
-        width: 80%;
+        width: 80vw;
     }
 
     .technology {
