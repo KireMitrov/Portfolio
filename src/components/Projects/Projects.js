@@ -62,7 +62,7 @@ function Projects() {
             description: `This is a landing page made for travel agancies where you can put your credentials in a form and win a trip with a lottery, additonal there is comercial trips which the agency is selling`,
             stack: ["Html", "CSS", "JavaScript", "ReactJS"],
             linkGithub: "https://github.com/KireMitrov/React-Landing-Page",
-            linkLive: "https://landingpage-kire.netlify.app/"
+            linkLive: "https://travel-kire.netlify.app/"
         },
         {
             projectName: "Quiz App",
